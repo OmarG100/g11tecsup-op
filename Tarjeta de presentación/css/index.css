@@ -69,7 +69,9 @@
 }
 
 .card__text {
-
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
 }
 
 .card__footer {
