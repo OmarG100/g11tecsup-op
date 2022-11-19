@@ -5,41 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarjeta de presentación</title>
     <link rel="shortcut icon" href="../icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/index.css" type="text/css">
 </head>
-<body>
+<body class="body">
     <main>
-        <img src="../images/foto.jpg" alt="Foto" width="240" height="240">
-        <h1>Omar Dan Pérez Gutiérrez</h1>
-        <h2>Desarrollador altamente capacitado para colaborar en cualquier proyecto web</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus reprehenderit aliquid eligendi vitae minima eaque ipsam nihil id et nostrum, quaerat temporibus tempora modi ratione molestiae natus assumenda sed. Perspiciatis?</p>
-        <ul>
+        <article class="hero">
+        <div class="card">
+        <header class="card__header">
+        <img src="../images/foto.jpg" alt="Foto" width="240" height="240" class="card__img">
+        </header>
+        <section class="card__body">
+        <h1 class="card__title">Omar Dan Pérez Gutiérrez</h1>
+        <h2 class="card__subtitle">Desarrollador altamente capacitado para colaborar en cualquier proyecto web</h2>
+        <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus reprehenderit aliquid eligendi vitae minima eaque ipsam nihil id et nostrum, quaerat temporibus tempora modi ratione molestiae natus assumenda sed. Perspiciatis?</p>
+        </section>
+        <footer class="card__footer">
+            <nav>
+        <ul class="menu">
             <li>
                 <a href="http://github.com/" target="_blank" rel="noopener noreferrer">
                     <img src="../icon/github.png" alt="github">
                 </a>
             </li>
-        </ul>
-        <ul>
             <li>
                 <a href="http://linkedin.com/" target="_blank" rel="noopener noreferrer">
                     <img src="../icon/linkedin.png" alt="linkedin">
                 </a>
             </li>
-        </ul>
-        <ul>
             <li>
                 <a href="http://twitter.com/" target="_blank" rel="noopener noreferrer">
                     <img src="../icon/twitter.png" alt="twitter">
                 </a>
             </li>
-        </ul>
-        <ul>
             <li>
                 <a href="http://youtube.com/" target="_blank" rel="noopener noreferrer">
                     <img src="../icon/youtube.png" alt="youtube">
                 </a>
             </li>
         </ul>
+            </nav>
+        </footer>
+        </div>
+        </article>
     </main>
 </body>
 </html>

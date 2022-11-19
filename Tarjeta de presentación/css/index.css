@@ -1,0 +1,38 @@
+:root {
+	--primary-theme-color: #20232abf;
+	--secondary-theme-color: #282c34;
+	--primary-text-color: white;
+	--primary-highlight-color: #61dafb;
+	--primary-font-family: monospace;
+}
+
+.body {
+	background-color: var(--primary-theme-color);
+	color: var(--primary-text-color);
+	font-family: var(--primary-font-family);
+	margin: 0;
+}
+
+.hero {
+	background-image: url(https://www.eltiempo.com/files/image_640_428/uploads/2022/04/29/626c5923e885e.jpeg);
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
+}
+
+.card {
+	border: 0.125rem solid var(--primary-highlight-color);
+	border-radius: 1rem;
+	max-width: 320px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.card__header {
+	background-color: var(--primary-theme-color);
+	text-align: center;
+}
+
+.card__img {
+	display: inline-block;
+}
