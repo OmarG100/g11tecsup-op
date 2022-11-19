@@ -15,6 +15,7 @@
 }
 
 .hero {
+	display: flex;
 	background-image: url(https://www.eltiempo.com/files/image_640_428/uploads/2022/04/29/626c5923e885e.jpeg);
 	background-size: cover;
 	background-position: center;
@@ -22,18 +23,27 @@
 }
 
 .card {
-	border: 0.125rem solid var(--primary-highlight-color);
+	border: 0.125rem solid var(--primary-text-color);
 	border-radius: 1rem;
 	max-width: 320px;
 	margin: auto;
 	overflow: hidden;
 }
 
+.card:hover {
+  border: 0.125rem solid var(--primary-highlight-color);
+}
+
 .card__header {
-	background-color: var(--primary-theme-color);
+	background-color: var(--primary-shadow-color-color);
 	text-align: center;
+	padding: 1rem;
 }
 
 .card__img {
-	display: inline-block;
+	background-color: var(--primary-theme-color);
+	border-radius: 50%;
+  	width: min(100%, 256px);
+  	height: 240px;
+  	object-fit: cover;
 }
