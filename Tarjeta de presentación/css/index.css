@@ -1,6 +1,7 @@
 :root {
-	--primary-theme-color: #20232abf;
-	--secondary-theme-color: #282c34;
+	--primary-theme-color: #20232a;
+	--primary-shadow-color: #20232abf;
+	--secondary-shadow-color: #282c34bf;
 	--primary-text-color: white;
 	--primary-highlight-color: #61dafb;
 	--primary-font-family: monospace;
