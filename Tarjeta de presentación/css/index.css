@@ -43,7 +43,31 @@
 .card__img {
 	background-color: var(--primary-theme-color);
 	border-radius: 50%;
-  	width: min(100%, 256px);
+  	width: min(100%, 240px);
   	height: 240px;
   	object-fit: cover;
+}
+
+.card__body {
+
+}
+
+.card__title {
+
+}
+
+.card__subtitle {
+
+}
+
+.card__text {
+
+}
+
+.card__footer {
+
+}
+
+.menu {
+	
 }
