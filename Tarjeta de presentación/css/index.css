@@ -75,7 +75,8 @@
 }
 
 .card__footer {
-
+  background-color: var(--primary-shadow-color);
+  padding: 1rem;
 }
 
 .menu {
