@@ -6,13 +6,30 @@
     <title>Omar Perez</title>
     <link rel="shortcut icon" href="../icon/favicon.ico" type="image/x-icon">
 </head>
-<body>
-    <header>
-    	<nav>
-    		<div>
+<body class="body">
+    <header class="header">
+    	<nav class="nav" id="header-nav">
+    		<div class="container f-elements f-elements--header p-relative">
     			<a href="#hero">
-    				<img src="../images/fotochica.jpg" alt="fotochicha" width="40px" height=" 40px">
+    				<img src="../images/fotochica.jpg" alt="fotochicha" width="40px" height=" 40px" class="nav__logo">
     			</a>
+    	<a href="#header-nav" class="nav__icon nav__icon--menu">
+          <i class="bi bi-list"></i>
+        </a>
+        <a href="#header-close" class="nav__icon nav__icon--close">
+          <i class="bi bi-x-circle"></i>
+        </a>
+        <ul class="list list--header f-elements f-elements--center f-elements--responsive gap-md">
+          <li>
+            <a href="#hero" class="list__link">Perfil</a>
+          </li>
+          <li>
+            <a href="#experiences" class="list__link">Experiencia</a>
+          </li>
+          <li>
+            <a href="#contact" class="list__link">Contacto</a>
+          </li>
+        </ul>
     		</div>
     	</nav>
     </header>
