@@ -41,9 +41,9 @@
     	</nav>
     </header>
     <main>
-    	<article id="hero" class="section section--hero f-elements f-elements--center">
-    		<div class="container g-elements g-elements--responsive">
-    			<div class="card">
+    	<article id="hero" class="section hero f-elements f-elements--center">
+    		<div class="container g-elements g-elements--responsive g-elements--center gap-lg">
+    			<div class="card f-elements f-direction-column">
     				<header class="card__header">
     					<h1 class="card__title">Omar Perez</h1>
     				</header>
@@ -51,8 +51,8 @@
     					<h2 class="card__subtitle">Desarrollador FullStack altamente capacitado para colaborar en cualquier proyecto web</h2>
     					<p class="card__text d-none md:d-block">Desarrollador Web FullStack con la biblioteca React. Profesional de especialización en Desarrollo Web Frontend. Apasionado de la informática, el autoaprendizaje y las buenas prácticas.</p>
     				</section>
-    				<footer class="card__footer f-elements--center">
-    				<div>
+    				<footer class="card__footer">
+    				<div class="f-elements f-elements--center gap-sm">
     				<a href="https://drive.com/" target="_blank" rel="noopener noreferrer" class="button button--primary">CV</a>
     				<a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="button button--outline-primary">GitHub</a>
     				</div>
@@ -61,37 +61,88 @@
     			<div class="hero__img">
     				<img src="https://global.discourse-cdn.com/choiceofgames/original/3X/e/d/ed16235a1b86075114511681c8ba90c113f5d36b.jpeg" alt="foto" width="256px" class="hero__primary-img">
     				<figure class="hero__decorators">
-    					<img src="https://cdn-icons-png.flaticon.com/128/732/732212.png" alt="html" width="64px" height="64px" class="hero-decorator">
-    					<img src="https://cdn-icons-png.flaticon.com/128/732/732190.png" alt="css" width="64px" height="64px" class="hero-decorator">
-    					<img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" alt="js" width="64px" height="64px" class="hero-decorator">
-    					<img src="https://cdn-icons-png.flaticon.com/128/753/753244.png" alt="react" width="64px" height="64px" class="hero-decorator">
+    					<img src="https://cdn-icons-png.flaticon.com/128/732/732212.png" alt="html" width="64px" height="64px" class="hero__decorator">
+    					<img src="https://cdn-icons-png.flaticon.com/128/732/732190.png" alt="css" width="64px" height="64px" class="hero__decorator">
+    					<img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" alt="js" width="64px" height="64px" class="hero__decorator">
+    					<img src="https://cdn-icons-png.flaticon.com/128/753/753244.png" alt="react" width="64px" height="64px" class="hero__decorator">
     				</figure>
     			</div>
     		</div>
     	</article>
-        <section class="section" id="projects">
-            <div class="container f-elements f-direction-column gap-md">
-              <h2 class="section__title">💻 Proyectos 💻</h2>
-              <div class="g-elements gap-sm">
-                <div class="card">
-                  <img src="https://i.postimg.cc/LXPKVpKW/cineverse.png" alt="Cineverse" class="card__img" />
-                  <div class="card__body">
-                    <h3 class="card__title">Cineverse</h3>
-                    <p class="card__text">
-                      Las mejores películas, estrenos, promociones y dulces en el mejor Cine. Contamos con las 4B Bueno,
-                      bonito, barato y bastante. Compra tus entradas de forma digital, rápido y sin colas.
-                    </p>
-                  </div>
-                  <div class="card__footer">
-                    <div class="f-elements f-elements--center gap-sm">
-                      <a href="https://cineverseelgs.netlify.app" target="_blank" rel="noopener noreferrer"
-                        class="button button--primary">Demo</a>
-                      <a href="https://github.com/ElliotXLeo/cineverse" target="_blank" rel="noopener noreferrer"
-                        class="button button--secondary">Código</a>
-                    </div>
-                  </div>
-                </div>
+            <section class="section" id="projects">
+      <div class="container f-elements f-direction-column gap-md">
+        <h2 class="section__title">💻 Proyectos 💻</h2>
+        <div class="g-elements g-elements--gallery j-items-center gap-sm">
+          <div class="card f-elements f-direction-column">
+            <img src="https://i.postimg.cc/LXPKVpKW/cineverse.png" alt="Cineverse" class="card__img" />
+            <div class="card__body f-elements f-direction-column gap-xs">
+              <h3 class="card__title">Cineverse</h3>
+              <p class="card__text">
+                Las mejores películas, estrenos, promociones y dulces en el mejor Cine. Contamos con las 4B Bueno,
+                bonito, barato y bastante. Compra tus entradas de forma digital, rápido y sin colas.
+              </p>
+            </div>
+            <div class="card__footer">
+              <div class="f-elements f-elements--center gap-sm">
+                <a href="https://cineverseelgs.netlify.app" target="_blank" rel="noopener noreferrer"
+                  class="button button--primary">Demo</a>
+                <a href="https://github.com/ElliotXLeo/cineverse" target="_blank" rel="noopener noreferrer"
+                  class="button button--secondary">Código</a>
               </div>
+            </div>
+          </div>
+          <div class="card f-elements f-direction-column">
+            <img src="https://i.postimg.cc/3rcDR8Wh/next-project-mern.png" alt="Cineverse" class="card__img" />
+            <div class="card__body f-elements f-direction-column gap-xs">
+              <h3 class="card__title">Next Project MERN</h3>
+              <p class="card__text">
+                Aplicación de Administrador de Proyectos que llevarán tu gestión al siguiente nivel. En él puedes
+                administrar los proyectos de tus sueños y sus actividades de inicio a fin.
+              </p>
+            </div>
+            <div class="card__footer">
+              <div class="f-elements f-elements--center gap-sm">
+                <a href="https://next-project-mern-frontend.netlify.app" target="_blank" rel="noopener noreferrer"
+                  class="button button--primary">Demo</a>
+                <a href="https://github.com/ElliotXLeo/next-project-mern-frontend" target="_blank"
+                  rel="noopener noreferrer" class="button button--secondary">Código</a>
+              </div>
+            </div>
+          </div>
+          <div class="card f-elements f-direction-column">
+            <img src="https://i.postimg.cc/BvYqBcY3/pokemons-crud-redux-react.png" alt="Cineverse" class="card__img" />
+            <div class="card__body f-elements f-direction-column gap-xs">
+              <h3 class="card__title">Pokémons CRUD</h3>
+              <p class="card__text">
+                Administrador de Pokémon’s.
+              </p>
+            </div>
+            <div class="card__footer">
+              <div class="f-elements f-elements--center gap-sm">
+                <a href="https://pokemons-crud-redux-react.netlify.app/pokemons" target="_blank"
+                  rel="noopener noreferrer" class="button button--primary">Demo</a>
+                <a href="https://github.com/ElliotXLeo/pokemons-crud-redux-react" target="_blank"
+                  rel="noopener noreferrer" class="button button--secondary">Código</a>
+              </div>
+            </div>
+          </div>
+          <div class="card f-elements f-direction-column">
+            <img src="https://i.postimg.cc/prBc3CPG/pancito-feliz-r.png" alt="Cineverse" class="card__img" />
+            <div class="card__body f-elements f-direction-column gap-xs">
+              <h3 class="card__title">Pancito Feliz</h3>
+              <p class="card__text">
+                Aplicación de una Panadería que te permite ver los productos, servicios y cambiar el tema.
+              </p>
+            </div>
+            <div class="card__footer">
+              <div class="f-elements f-elements--center gap-sm">
+                <a href="https://github.com/ElliotXLeo/pancito-feliz-r" target="_blank"
+                  rel="noopener noreferrer" class="button button--primary">Demo</a>
+                <a href="https://github.com/ElliotXLeo/pancito-feliz-r" target="_blank"
+                  rel="noopener noreferrer" class="button button--secondary">Código</a>
+              </div>
+            </div>
+          </div>
             </div>
           </section>
     	<section id="experiences">
